@@ -19,4 +19,7 @@ else:
     print("割引はありません")
 
 # 結果を表示
-print("子供料金     :{0}人 x 500 = {1}円".format(children, children_price))
+print("子供料金     :{0}人 x  500 = {1}円".format(children, children_price))
+print("通常料金     :{0}人 x 1000 = {1}円".format(normal, normal_price))
+print("年配者料金   :{0}人 x  700 = {1}円".format(elder, elder_price))
+print("合計         :{0}人 {1}円".format(total_num, total_price))
