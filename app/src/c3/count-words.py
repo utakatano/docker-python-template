@@ -3,7 +3,7 @@ Keep oon asking, and it will be given you;
 keep on seeking, and you will find;
 keep on knocking, and it will be opened to you;
 for everyone asking receives. and everyone seeking finds,
-and to everyone knockng, it will be opned.
+and to everyone knocking, it will be opened.
 """
 
 text = text.replace(";", "")
