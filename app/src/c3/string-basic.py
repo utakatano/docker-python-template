@@ -60,3 +60,19 @@ print(n[::3])
 text = "This is a pen."
 
 print(text.split())
+
+date = "2020/02/20"
+
+print(date.split("/"))
+
+print(date.split("/", maxsplit=1))
+
+a = ["aaa", "bbb", "ccc"]
+
+print("-".join(a))
+
+print("-".join(date.split("/")))
+
+print(text.replace("pen", "note"))
+
+print(text)
