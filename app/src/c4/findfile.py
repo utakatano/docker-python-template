@@ -30,7 +30,7 @@ print("| desc_mode=", desc_mode)
 
 for root, dirs, files in os.walk("."):
     for fname in files:
-        path = os.path.join(root, name)
+        path = os.path.join(root, fname)
         b = search_func(fname, name)
         if b == False: continue
         if desc_mode:
